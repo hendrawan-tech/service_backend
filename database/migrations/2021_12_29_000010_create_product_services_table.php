@@ -25,6 +25,7 @@ class CreateProductServicesTable extends Migration
             $table->string('image')->nullable();
             $table->enum('status', ['Diterima', 'Diperbaiki', 'Selesai', 'Dikembalikan']);
             $table->unsignedBigInteger('product_category_id');
+            $table->unsignedBigInteger('user_id');
 
             $table->timestamps();
         });

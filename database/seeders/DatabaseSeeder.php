@@ -22,15 +22,15 @@ class DatabaseSeeder extends Seeder
             ]);
         $this->call(PermissionsSeeder::class);
 
-        $this->call(ServiceSeeder::class);
-        $this->call(TimelineSeeder::class);
-        $this->call(UserSeeder::class);
-        $this->call(ProductServiceCategorySeeder::class);
-        $this->call(ProductSeeder::class);
-        $this->call(ProductImageSeeder::class);
-        $this->call(OrderitemsSeeder::class);
-        $this->call(CategoryProductSeeder::class);
-        $this->call(ProductServiceSeeder::class);
-        $this->call(OrdersSeeder::class);
+        // $this->call(ServiceSeeder::class);
+        // $this->call(TimelineSeeder::class);
+        // $this->call(UserSeeder::class);
+        // $this->call(ProductServiceCategorySeeder::class);
+        // $this->call(ProductSeeder::class);
+        // $this->call(ProductImageSeeder::class);
+        // $this->call(OrderitemsSeeder::class);
+        // $this->call(CategoryProductSeeder::class);
+        // $this->call(ProductServiceSeeder::class);
+        // $this->call(OrdersSeeder::class);
     }
 }
